@@ -1,3 +1,4 @@
+/*
 html,
 button,
 input,
@@ -110,7 +111,7 @@ body {
 }
 
 #bg_container {
-   /*height: 300px; */
+
    overflow: hidden;
    align: center;
    padding-top: 5%;
@@ -199,6 +200,17 @@ img {
 /*
  * Remove default fieldset styles.
  */
+
+
+
+
+/* FIRST HALF */
+
+
+
+
+
+
 
 fieldset {
     border: 0;
