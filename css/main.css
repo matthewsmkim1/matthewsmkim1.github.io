@@ -73,16 +73,23 @@ body {
 #proj {
    color:white;
    text-align: center;
-   font-family: 'Raleway', sans-serif;
-   font-size: 10px;
+   font-family: futuraPro, Futura, proximaNovaBold, helvetica, sans-serif;
+   font-size: 60%;
    padding-top: 2%;
 }
 #gameDesc {
+
    color: #F7F9FF;
    padding-left: 7%;
    padding-top: 3%;
    padding-right: 15%;
-   font-size: 24px;
+   font-size: 22px;
+}
+
+#gameDesc p {
+
+   font-family: futuraPro, Futura, proximaNovaBold, helvetica, sans-serif;
+
 }
 
 #lang {
@@ -245,9 +252,9 @@ section {
 .loaded section,
 .no-js section {
 	opacity: 1;
-	-webkit-transition: opacity 3000ms ease-out;
-	-moz-transition: opacity 3000ms ease-out;
-	transition: opacity 3000ms ease-out;
+	-webkit-transition: opacity 1300ms ease-out;
+	-moz-transition: opacity 1300ms ease-out;
+	transition: opacity 1300ms ease-out;
 }
 
 main {
@@ -298,8 +305,8 @@ main {
    text-align: center;
 }
 #abtme {
-
-   font-family: Verdana;
+   font-family: futuraPro, Futura, proximaNovaBold, helvetica, sans-serif;
+   font-weight: 200;
    color:white;
    font-size: 20px;
    max-width: 50%;
