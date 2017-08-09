@@ -232,8 +232,19 @@ textarea {
     padding: 0.2em 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 /* width in bcg, somewhere in here lies the bug for links */
-/*
+
 body, html {
 	height: 100%;
 	min-height: 100%;
@@ -257,7 +268,7 @@ section {
 main {
 	overflow-x: hidden;
 }
-
+/*
 .bcg {
 
 	background-position: center center;
