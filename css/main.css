@@ -250,19 +250,19 @@ body, html {
 	min-height: 100%;
 	background-color: #000000;
 }
-
+*/
 
 section {
 	min-width: 960px;
 	opacity: 0;
 }
-*/
+
 .loaded section,
 .no-js section {
 	opacity: 1;
-	-webkit-transition: opacity 300ms ease-out;
-	-moz-transition: opacity 300ms ease-out;
-	transition: opacity 300ms ease-out;
+	-webkit-transition: opacity 3000ms ease-out;
+	-moz-transition: opacity 3000ms ease-out;
+	transition: opacity 3000ms ease-out;
 }
 
 main {
