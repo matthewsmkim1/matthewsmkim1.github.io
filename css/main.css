@@ -1,0 +1,590 @@
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+  max-width: 500px;
+}
+.lava {
+  position: relative;
+  padding-left: 20px;
+  top: 0;
+  left: 0;
+  max-width: 500px;
+}
+.grass {
+  position: absolute;
+  top: 3500px;
+  left: 500px;
+  max-width: 35%;
+  height: auto;
+
+
+}
+.sand {
+  position: absolute;
+  top: 3400px;
+  left: 170px;
+  max-width: 35%;
+  height: auto;
+
+
+}
+
+
+
+
+
+
+.gamePics {
+   max-width: 25%;
+   height: auto;
+
+}
+
+#under {
+   text-decoration: underline;
+}
+#startup {
+   text-align: center;
+   color: white;
+   margin-top:200px;
+   position: absolute;
+   font-size: 38px;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+#proj h1 {
+   text-align: left;
+   padding-left: 6%;
+}
+#proj {
+   color:white;
+   text-align: center;
+   font-family: 'Raleway', sans-serif;
+   font-size: 10px;
+   padding-top: 2%;
+}
+#gameDesc {
+   color: #F7F9FF;
+   padding-left: 7%;
+   padding-top: 3%;
+   padding-right: 15%;
+   font-size: 24px;
+}
+
+#lang {
+    width: 50px;
+    border: 5px solid white;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    display: inline-block;
+}
+
+#code {
+   width: 50px;
+   border: 5px solid white;
+   padding: 5px;
+   margin: 5px;
+   color: white;
+   display: inline-block;
+   text-align: center;
+}
+
+#centLang {
+   margin-top: 8%;
+   text-align: center;
+}
+
+#bg_container {
+   /*height: 300px; */
+   overflow: hidden;
+   align: center;
+   padding-top: 5%;
+   padding-bottom: 5%;
+   padding-left: 33%;
+}
+
+#centerT{
+   color: white;
+   text-align: center;
+   margin-bottom: 7%;
+   font-size: 30px;
+}
+
+#exp p {
+   position: absolute;
+   color: white;
+   text-align: center;
+
+}
+#af {
+   color: white;
+   text-align: center;
+   font-size: 50px;
+   padding-top: 3%;
+}
+#dentalP{
+
+   position: absolute;
+   color: white;
+   text-align: left;
+   padding-left: 10%;
+   padding-right: 20%;
+   font-size: 20px;
+}
+
+#exp {
+   padding-top: 5%;
+}
+
+#contentbg {
+   position: absolute;
+   top: 0px;
+   padding:30px;
+   color: white;
+   text-shadow: #000 2px 2px;
+}
+.center { margin: 0 auto; width: 50%; text-align: center;}
+
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+
+
+img {
+    vertical-align: middle;
+}
+
+#UMBBad {
+
+   position:relative;
+   margin-top: 26%;
+   float: left;
+   max-width: 700px;
+   padding-left: 10%;
+   padding-bottom: 5%;
+
+}
+
+#UMBGood {
+
+   float: right;
+   max-width: 700px;
+   padding-right: 10%;
+
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Parallax Scroll
+   ========================================================================== */
+/* width in bcg, somewhere in here lies the bug for links */
+
+body, html {
+	height: 100%;
+	min-height: 100%;
+	background-color: #000000;
+}
+
+
+section {
+	min-width: 960px;
+	opacity: 0;
+}
+
+.loaded section,
+.no-js section {
+	opacity: 1;
+	-webkit-transition: opacity 300ms ease-out;
+	-moz-transition: opacity 300ms ease-out;
+	transition: opacity 300ms ease-out;
+}
+
+main {
+	overflow-x: hidden;
+}
+
+.bcg {
+
+	background-position: center center;
+	background-repeat: no-repeat;
+
+	background-attachment: fixed;
+	background-size: cover;
+
+	height: 100%;
+   /*THIS WAS THE STUFF THAT MADE LINKS NOT WORK!!!!!! when I double click
+   when width = 100%, it says "look up contact form". Maybe when width = %100, the page
+   thinks that I am n the contact form page which is why no links work
+	width: 100%;
+   */
+   width: 100%;
+
+}
+
+#slide-star .bcg {
+   background-image: url('../pics/nightstarsky.jpg')
+}
+
+
+#slide-1 .bcg {background-image:url('../img/minim.jpg')}
+
+#slide-2 .bcg {
+   background: none;
+   background-color: #010101;
+   height: 100%;
+   text-align: left;
+   /*text-align: center; */
+}
+#slide-2n .bcg {
+   background: none;
+   background-color: #010101;
+   height: 1000px;
+}
+#slide-3n .bcg {
+   background: none;
+   background-color: #010101;
+   height: 1000px;
+   text-align: center;
+}
+#abtme {
+
+   font-family: Verdana;
+   color:white;
+   font-size: 20px;
+   max-width: 50%;
+   padding-left: 5%;
+   padding-top: 2%;
+}
+
+
+
+/* Slide 3 */
+#slide-3 .bcg {
+   background-image:url('../pics/StarBackground.jpg')
+}
+
+
+/* Slide 4 */
+.curtainContainer {width: 100%; height: 100%; position: relative;}
+.curtainContainer .curtain {width: 300%; height: 1px; background-color: #000000; position: absolute; top: 25%; left: 0; opacity: 0}
+.curtainContainer .copy {position: absolute; bottom: 30%; left: 0; width: 100%; text-align: center;}
+
+#slide-4 .bcg {background-image:url('../pics/Space.jpg')}
+
+/* Slide 5 */
+#slide-5 {position: relative;}
+
+#slide-5 .bcg {background-image:url('../pics/sunrise.jpg')}
+#slide-5 .bcg2 {background-image:url('../pics/sunrise.jpg');
+   position: fixed;
+   bottom: 0; left: 0;
+   opacity: 0;
+   z-index: 1
+}
+#slide-5 .bcg3 {
+   background: none;
+   background-color: #010101;
+   z-index: 2;  position: fixed;
+   bottom: 0; left: 0;
+   opacity: 0;
+   z-index: 2
+
+}
+
+.hsContainer {
+
+	width: 100%;
+	height: 100%;
+
+	overflow: hidden;
+	/*position: relative; */
+}
+
+/*
+.hsContent {
+	max-width: 450px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center
+}
+*/
+.hsContent h1 {
+   color:white;
+   text-align: center;
+   font-family: 'Raleway', sans-serif;
+   font-size: 500%;
+   font-weight: 500;
+   padding-top: 10%;
+}
+.hsContent h2 {
+   text-align: center;
+   font-family: 'Raleway', sans-serif;
+   color: white;
+   font-size: 200%;
+   font-weight: 200;
+}
+.hsContent h3 {
+   text-align: left;
+}
+.hsContainer span {
+   font-size: 50px;
+}
+
+	.bgBlack {
+		background-color: rgba(0,0,0,0.75);
+		padding: 3px 10px;
+	}
+
+.social {
+   max-width: 150px;
+   padding-top: 20%;
+
+}
+
+.asdf {
+   text-align: center;
+
+}
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
