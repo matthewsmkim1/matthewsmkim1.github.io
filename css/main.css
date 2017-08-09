@@ -1,4 +1,4 @@
-/*
+
 html,
 button,
 input,
@@ -204,7 +204,6 @@ img {
 
 
 
-/* FIRST HALF */
 
 
 
@@ -218,17 +217,13 @@ fieldset {
     padding: 0;
 }
 
-/*
- * Allow only vertical resizing of textareas.
- */
+
 
 textarea {
     resize: vertical;
 }
 
-/* ==========================================================================
-   Chrome Frame prompt
-   ========================================================================== */
+
 
 .chromeframe {
     margin: 0.2em 0;
@@ -237,11 +232,8 @@ textarea {
     padding: 0.2em 0;
 }
 
-/* ==========================================================================
-   Parallax Scroll
-   ========================================================================== */
 /* width in bcg, somewhere in here lies the bug for links */
-
+/*
 body, html {
 	height: 100%;
 	min-height: 100%;
@@ -279,10 +271,24 @@ main {
    when width = 100%, it says "look up contact form". Maybe when width = %100, the page
    thinks that I am n the contact form page which is why no links work
 	width: 100%;
-   */
+   */ /*
    width: 100%;
 
 }
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #slide-star .bcg {
    background-image: url('../pics/nightstarsky.jpg')
