@@ -256,7 +256,7 @@ section {
 	min-width: 960px;
 	opacity: 0;
 }
-
+*/
 .loaded section,
 .no-js section {
 	opacity: 1;
@@ -269,7 +269,7 @@ main {
 	overflow-x: hidden;
 }
 
-*/
+
 
 .bcg {
 
