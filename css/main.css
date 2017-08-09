@@ -251,12 +251,12 @@ body, html {
 	background-color: #000000;
 }
 
-/*
+
 section {
 	min-width: 960px;
-	opacity: 0;
+	/*opacity: 0; */
 }
-*/
+
 .loaded section,
 .no-js section {
 	opacity: 1;
