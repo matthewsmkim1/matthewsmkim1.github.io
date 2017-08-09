@@ -244,7 +244,7 @@ textarea {
 
 
 /* width in bcg, somewhere in here lies the bug for links */
-
+/*
 body, html {
 	height: 100%;
 	min-height: 100%;
@@ -268,7 +268,9 @@ section {
 main {
 	overflow-x: hidden;
 }
-/*
+
+*/
+
 .bcg {
 
 	background-position: center center;
@@ -282,11 +284,11 @@ main {
    when width = 100%, it says "look up contact form". Maybe when width = %100, the page
    thinks that I am n the contact form page which is why no links work
 	width: 100%;
-   */ /*
+   */
    width: 100%;
 
 }
-*/
+
 
 
 
