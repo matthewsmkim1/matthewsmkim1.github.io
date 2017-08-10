@@ -192,40 +192,47 @@
 
        <section id="slide-3" class="homeSlide">
          <div class = "bcg">
-            <?php
-            $action=$_REQUEST['action'];
-            if ($action=="")    /* display the contact form */
-                {
-                ?>
-                <form  action="" method="POST" enctype="multipart/form-data">
-                  <input type="hidden" name="action" value="submit">
-                      <div id = "whiteFont">Your name:<br> </div>
-                  <input name="name" type="text" value="" size="30"/><br>
-                      <div id = "whiteFont"> Your email:<br> </div>
-                  <input name="email" type="text" value="" size="30"/><br>
-                      <div id = "whiteFont"> Your message:<br> </div>
-                  <textarea name="message" rows="7" cols="30"></textarea><br>
-                  <input type="submit" value="Send email"/>
-               </form>
-                <?php
-                }
-            else                /* send the submitted data */
-                {
-                $name=$_REQUEST['name'];
-                $email=$_REQUEST['email'];
-                $message=$_REQUEST['message'];
-                if (($name=="")||($email=="")||($message==""))
-                    {
-                    echo "All fields are required, please fill <a href=\"\">the form</a> again.";
-                    }
-                else{
-                    $from="From: $name<$email>\r\nReturn-path: $email";
-                    $subject="Message sent using your contact form";
-                    mail("matthew.sm.kim1@gmail.com", $subject, $message, $from);
-                    echo "Email sent!";
-                    }
-                }
-            ?>
+
+<form class="form-horizontal" role="form" method="post" action="index.php">
+	<div class="form-group">
+		<label for="name" class="col-sm-2 control-label">Name</label>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
+			<?php echo "<p class='text-danger'>$errName</p>";?>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="email" class="col-sm-2 control-label">Email</label>
+		<div class="col-sm-10">
+			<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>">
+			<?php echo "<p class='text-danger'>$errEmail</p>";?>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="message" class="col-sm-2 control-label">Message</label>
+		<div class="col-sm-10">
+			<textarea class="form-control" rows="4" name="message"><?php echo htmlspecialchars($_POST['message']);?></textarea>
+			<?php echo "<p class='text-danger'>$errMessage</p>";?>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+			<?php echo "<p class='text-danger'>$errHuman</p>";?>
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-10 col-sm-offset-2">
+			<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-10 col-sm-offset-2">
+			<?php echo $result; ?>
+		</div>
+	</div>
+</form>
          </div>
        </section>
 
