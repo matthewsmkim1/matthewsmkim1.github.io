@@ -6,6 +6,12 @@ textarea {
     color: #222;
 }
 
+#sc {
+   text-align: center;
+   padding-top: 15%;
+}
+
+
 .parent {
   position: relative;
   top: 0;
@@ -129,6 +135,7 @@ body {
    padding-top: 3%;
 }
 #dentalP{
+   font-family: futuraPro, Futura, proximaNovaBold, helvetica, sans-serif;
 
    position: absolute;
    color: white;
