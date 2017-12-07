@@ -259,7 +259,9 @@ main {
 }
 
 
-#slide-1 .bcg {background-image:url('../img/minim.jpg')}
+/*#slide-1 .bcg {background-image:url('../img/minim.jpg')}*/
+
+#slide-1 .bcg {background-image:url('../pics/nightstarsky.jpg')}
 
 #slide-2 .bcg {
    background: none;
