@@ -23,7 +23,8 @@ header {
   left: 0;
   z-index: 5;
 
-  background: #25b99a;
+  /*background: #66B2FF;*/
+  background: #66B2FF;
   box-shadow: 0px 2px 4px rgba(44, 62, 80, 0.15);
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -96,7 +97,7 @@ header button svg {
 }
 
 header button svg .fill {
-  fill: #25b99a;
+  fill: #66B2FF;
 }
 
 .container {
@@ -180,19 +181,20 @@ ul.todo li .buttons button svg {
 
 ul.todo li .buttons button.complete svg {
   border-radius: 11px;
-  border: 1.5px solid #25b99a;
+  border: 1.5px solid #66B2FF;
 
   transition: background 0.2s ease;
 }
 
 ul.todo#completed li .buttons button.complete svg {
-  background: #25b99a;
+  background: #66B2FF;
   border: 0px;
 }
 
 ul.todo:not(#completed) li .buttons button.complete:hover svg {
-  background: rgba(37, 185, 154, 0.75);
+  background: rgba(102, 178, 255, 1);
 }
+
 
 ul.todo:not(#completed) li .buttons button.complete:hover svg .fill {
   fill: #fff;
@@ -215,7 +217,7 @@ ul.todo li .buttons button.remove:hover svg .fill {
 }
 
 ul.todo li .buttons button.complete svg .fill {
-  fill: #25b99a;
+  fill: #66B2FF;
 }
 
 ul.todo#completed {
