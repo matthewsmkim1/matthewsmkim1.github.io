@@ -53,7 +53,7 @@ body {
 #proj {
    color:white;
    text-align: center;
-   font-family: futuraPro, Futura, proximaNovaBold, helvetica, sans-serif;
+   font-family: 'Raleway', sans-serif;
    line-height: 150%;
    font-weight: 200;
    font-size: 60%;
@@ -282,9 +282,9 @@ main {
    text-align: center;
 }
 #abtme {
-   font-family: futuraPro, Futura, helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
 
-   font-weight: 100;
+   font-weight: lighter;
    color:white;
    font-size: 20px;
    max-width: 50%;
@@ -334,6 +334,7 @@ main {
 	height: 100%;
 
 	overflow: hidden;
+    font-weight: lighter;
 	/*position: relative; */
 }
 
@@ -359,7 +360,6 @@ main {
    font-family: 'Raleway', sans-serif;
    color: white;
    font-size: 200%;
-   font-weight: 200;
 }
 .hsContent h3 {
    text-align: left;
@@ -368,6 +368,8 @@ main {
    padding-top: 10%;
    font-size: 50px;
    font-weight:lighter;
+   font-family: 'Raleway', sans-serif;
+
 }
 
 	.bgBlack {
