@@ -18,6 +18,14 @@ textarea {
   max-width: 500px;
 }
 
+.todo {
+   padding-top: 4%;
+   max-width: 25%;
+   height: auto;
+
+}
+
+
 .gamePics {
    padding-top: 4%;
    max-width: 25%;
@@ -119,8 +127,9 @@ body {
 #centerT{
    color: white;
    text-align: center;
+   padding-top: 4%;
    margin-bottom: 7%;
-   font-size: 30px;
+   font-size: 22px;
    font-weight: lighter;
 }
 
