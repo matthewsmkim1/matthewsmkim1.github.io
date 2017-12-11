@@ -153,6 +153,9 @@ function addItemToDOM(text, completed) {
    buttons.appendChild(complete);
    item.appendChild(buttons);
 
-   list.insertBefore(item, list.childNodes[0]);
+   //This adds new thing to do at top
+   //list.insertBefore(item, list.childNodes[0]);
 
+   //This adds new thing to do at the bottom
+   list.appendChild(item);
 }
