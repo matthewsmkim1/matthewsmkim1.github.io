@@ -53,6 +53,7 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    -webkit-overflow-scrolling: touch;
 }
 #proj h1 {
    text-align: left;
@@ -244,7 +245,7 @@ section {
 }
 
 main {
-	/*overflow-x: hidden;*/
+	overflow-x: hidden;
 }
 
 .bcg {
@@ -345,7 +346,7 @@ main {
 	width: 100%;
 	height: 100%;
 
-	/*overflow: hidden;*/
+	overflow: hidden;
    font-weight: lighter;
 	/*position: relative; */
 }

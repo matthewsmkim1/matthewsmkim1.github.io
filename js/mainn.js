@@ -1,4 +1,5 @@
 ( function( $) {
+
 	var s = skrollr.init( {
 		render: function(data) {
 
@@ -35,6 +36,7 @@
 	function adjustWindow(){
 
 		// Init Skrollr
+
 		var s = skrollr.init({
 		    render: function(data) {
 
