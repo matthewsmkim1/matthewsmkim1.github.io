@@ -16,19 +16,28 @@ var alarm = setInterval(function(){ reminder() }, 3600000);
 // User clicked on the add button
 // If there is any text inside the item field, add that text to the todo list
 document.getElementById('add').addEventListener('click', function() {
-    var value = document.getElementById('item').value;
-    if (value) {
-        console.log(value);
-        addItem(value);
-    }
+   var value = document.getElementById('item').value;
+
+   //This adds text if there is stuff inside
+
+   if (value) {
+      console.log(value);
+      addItem(value);
+   }
+   //This adds text regardless if there is text, so it would add an
+   //empty box if you just press enter
+   //addItem(value);
+
 });
 
 document.getElementById('item').addEventListener('keydown', function (e) {
-    var value = this.value;
-    if (e.code === 'Enter' && value) {
-        addItem(value);
-    }
+   var value = this.value;
+   if (e.code === 'Enter' && value) {
+     addItem(value);
+   }
+
 });
+
 
 function reminder() {
    if (data.todo.length != 0) {
@@ -41,8 +50,15 @@ function reminder() {
 function addItem (value) {
 
    //todo length is one after inserting one
-   if (todo.length == 0) {
+   if (data.todo.length == 0) {
       alarm = setInterval(function(){ reminder() }, 3600000);
+
+      //BUG doesn't save changes in boxes, and
+      //when characters == 0 inside box, deletes
+      //whole box
+
+      //Makes content editable if todo boxes exist
+      //document.getElementById('todo').contentEditable='true';
    }
 
    addItemToDOM(value);
@@ -53,6 +69,7 @@ function addItem (value) {
 }
 
 function renderTodoList() {
+
    if (!data.todo.length && !data.completed.length) return;
 
    for (var i = 0; i < data.todo.length; i++) {
@@ -66,6 +83,7 @@ function renderTodoList() {
       var value = data.completed[j];
       addItemToDOM(value, true);
    }
+
 }
 
 function dataObjectUpdated() {
@@ -90,6 +108,7 @@ function removeItem() {
 
    if (data.todo.length == 0) {
       window.clearInterval(alarm);
+      //document.getElementById('todo').contentEditable='false';
    }
 }
 
@@ -118,8 +137,10 @@ function completeItem() {
    target.insertBefore(item, target.childNodes[0]);
 
    if (id == 'todo' && data.todo.length == 0) {
+      //document.getElementById('todo').contentEditable='false';
       window.clearInterval(alarm);
    } else if (id == 'completed' && data.todo.length == 1) {
+      //document.getElementById('todo').contentEditable='true';
       alarm = setInterval(function(){ reminder() }, 3600000);
    }
 

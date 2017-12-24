@@ -278,6 +278,8 @@ main {
    background-color: #010101;
    height: 100%;
    text-align: left;
+   margin-bottom: 7%;
+
    /*text-align: center; */
 }
 #slide-2n .bcg {
@@ -307,7 +309,7 @@ main {
 
 /* Slide 3 */
 #slide-3 .bcg {
-   background-image:url('../pics/StarBackground.jpg')
+   background-image:url('../pics/StarBackground.jpg');
 }
 
 
