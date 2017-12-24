@@ -6,6 +6,10 @@ textarea {
     color: #222;
 }
 
+#skrollr-body {
+
+}
+
 #sc {
    text-align: center;
    padding-top: 15%;
@@ -253,7 +257,7 @@ main {
 	background-position: center center;
 	background-repeat: no-repeat;
 
-	/*background-attachment: fixed;*/
+	background-attachment: fixed;
 	background-size: cover;
 
 	height: 100%;
