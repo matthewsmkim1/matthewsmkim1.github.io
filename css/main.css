@@ -282,9 +282,6 @@ main {
    background-color: #010101;
    height: 100%;
    text-align: left;
-   margin-bottom: 7%;
-
-   /*text-align: center; */
 }
 #slide-2n .bcg {
    background: none;
@@ -367,7 +364,8 @@ main {
    color:white;
    text-align: center;
    font-family: 'Raleway', sans-serif;
-   font-size: 500%;
+
+
    font-weight: lighter;
    padding-top: 10%;
 }
@@ -375,7 +373,6 @@ main {
    text-align: center;
    font-family: 'Raleway', sans-serif;
    color: white;
-   font-size: 200%;
 }
 .hsContent h3 {
    text-align: left;
