@@ -23,8 +23,10 @@ textarea {
 }
 
 .todo {
+   padding-right: 10%;
+   padding-left: 10%;
    padding-top: 4%;
-   max-width: 25%;
+   max-width: 10%;
    height: auto;
 
 }
