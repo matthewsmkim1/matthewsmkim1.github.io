@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	$(".fa-angle-double-down").click(function(e) {
+	$(".mouseScroll").click(function(e) {
 
 		var linkHref = $(this).attr('href');
 
@@ -10,7 +10,11 @@ $(document).ready(function(){
 
 		e.preventDefault();
 	});
-
+	/*
+   $('.fa-facebook').hover(function() {
+   	$(this).toggleClass('fa-spin');
+   });
+*/
 });
 
 ( function( $) {
