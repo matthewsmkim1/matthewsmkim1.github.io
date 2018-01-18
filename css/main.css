@@ -8,7 +8,11 @@ textarea {
 
 
 
-
+.arrow{
+   padding-top: 6em;
+   text-align: center;
+   color: white;
+}
 
 
 
@@ -67,6 +71,10 @@ textarea {
 }
 .fa:hover {
    opacity: 1;
+}
+
+.fa-angle-double-down {
+   color: white;
 }
 
 .fa-facebook {
@@ -377,9 +385,9 @@ main {
 }
 
 
-/*#slide-1 .bcg {background-image:url('../img/minim.jpg')}*/
+#slide-1 .bcg {background-image:url('../img/minim.jpg')}
 
-#slide-1 .bcg {background-image:url('../pics/nightstarsky.jpg')}
+/*#slide-1 .bcg {background-image:url('../pics/nightstarsky.jpg')}*/
 
 #slide-2 .bcg {
    background: none;
@@ -413,8 +421,12 @@ main {
 
 
 /* Slide 3 */
+/*
 #slide-3 .bcg {
    background-image:url('../pics/StarBackground.jpg');
+}*/
+#slide-3 .bcg {
+   background-image:url('../pics/night.jpeg');
 }
 
 

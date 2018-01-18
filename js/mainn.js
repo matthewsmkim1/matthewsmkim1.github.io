@@ -1,3 +1,18 @@
+$(document).ready(function(){
+
+	$(".fa-angle-double-down").click(function(e) {
+
+		var linkHref = $(this).attr('href');
+
+		$('html, body').animate({
+			scrollTop: $(linkHref).offset().top
+		}, 1000);
+
+		e.preventDefault();
+	});
+
+});
+
 ( function( $) {
 
 	var s = skrollr.init( {

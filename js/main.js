@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	console.log("HI");
 
 	$(".main").onepage_scroll({
 	   sectionContainer: "section", // sectionContainer accepts any kind of selector in case you don't want to use section
@@ -6,6 +7,10 @@ $(document).ready(function(){
 	   animationTime: 900, // AnimationTime let you define how long each section takes to animate
 	   pagination: true, // You can either show or hide the pagination. Toggle true for show, false for hide.
 	   updateURL: false // Toggle this true if you want the URL to be updated automatically when the user scroll to each page.
+	});
+
+	$(".fa-angle-double-down").click(function() {
+		alert('hi');
 	});
 
 });
