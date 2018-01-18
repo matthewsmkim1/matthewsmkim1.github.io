@@ -17,13 +17,12 @@ textarea {
 
 .button {
    border-radius: 9px;
-   /*width: 90px;*/
    width: 7em;
    font-family: 'Oswald', sans-serif;
    color: white;
    background-color: Transparent;
    outline:none;
-   border: solid #DEE5F5 3px;
+   border: solid #DEE5F5 2px;
    text-decoration: none;
    transition: all 0.5s;
    cursor: pointer;
@@ -56,17 +55,18 @@ textarea {
    right: 0;
 }
 
+
+
 .fa {
    padding: 20px;
-   width: 110px;
+   width: 80px;
    text-align: center;
    text-decoration: none;
    border-radius: 9px;
-
-
+   opacity: .85;
 }
 .fa:hover {
-   opacity: 0.85;
+   opacity: 1;
 }
 
 .fa-facebook {
@@ -80,6 +80,7 @@ textarea {
 .fa-linkedin {
    background: #4875B4;
    color: white;
+
 }
 
 
@@ -113,7 +114,7 @@ textarea {
 #sc {
    text-align: center;
    padding-top: 15%;
-   font-size: 30px;
+   font-size: 40px;
 }
 
 .parent {
