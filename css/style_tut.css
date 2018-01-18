@@ -22,22 +22,6 @@
    margin: 5%;
    float: right;
 }
-.btn {
-   border-radius: 9px;
-   font-family: 'Oswald', sans-serif;
-   color: #DEE5F5;
-   font-size: 185%;
-   border: solid #DEE5F5 3px;
-   text-decoration: none;
-   padding: 14px 24px;
-}
-.btn:hover {
-   font-family: 'Oswald', sans-serif;
-
-   color: white;
-   border: solid white 3px;
-   font-weight:400;
-}
 
 .content p {
     float: right;
