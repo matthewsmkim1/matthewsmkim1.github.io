@@ -5,6 +5,34 @@ select,
 textarea {
    color: #222;
 }
+#lang {
+    width: 150px;
+    border: 2px solid white;
+    padding: 5px;
+    margin: 5px;
+    color: #DEE5F5;
+    display: inline-block;
+}
+
+#abtme {
+    font-family: 'Raleway', sans-serif;
+
+   font-weight: lighter;
+   color:white;
+   font-size: 20px;
+   /*max-width: 50%;*/
+   line-height: 150%;
+   padding-left: 5%;
+   padding-top: 2%;
+
+}
+
+
+#centLang {
+   margin-top: 3%;
+   
+   text-align: center;
+}
 
 
 @-webkit-keyframes ani-mouse {
@@ -186,6 +214,7 @@ textarea {
 
 
 /*
+old icons where it was just color surrounding icon
 .fa {
    padding: 20px;
    width: 80px;
@@ -214,19 +243,30 @@ textarea {
 .fa {
    text-align: center;
    text-decoration: none;
+   transition: 0.2s ease;
+
 }
 .fa-facebook:hover {
    color: #3B5998;
+
 }
 .fa-github:hover {
    color: #333333;
+
 }
 .fa-linkedin:hover {
    color: #4875B4;
+
 }
+
+.fa-stack:hover {
+   color: #DEE5F5;
+}
+
 
 .fa-facebook {
    color: #DEE5F5;
+
 }
 .fa-github {
    color: #DEE5F5;
@@ -316,7 +356,12 @@ body {
    font-size: 22px;
    font-weight: lighter;
 }
-
+#centerA {
+   font-size: 1.3em;
+   text-align: center;
+   font-weight: lighter;
+   color: #DEE5F5;
+}
 
 .center { margin: 0 auto; width: 50%; text-align: center;}
 
@@ -486,6 +531,7 @@ main {
 
 	overflow: hidden;
    font-weight: lighter;
+   padding-bottom: 2%;
 	/*position: relative; */
 }
 
