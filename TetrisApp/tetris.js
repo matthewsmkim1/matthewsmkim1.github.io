@@ -219,9 +219,9 @@ function update(time = 0) {
 function updateScore() {
    document.getElementById('score').innerText = player.score;
    if (player.score > 1000) {
-      dropInterval = 50;
-   } if (player.score > 500) {
       dropInterval = 100;
+   } if (player.score > 500) {
+      dropInterval = 150;
    } else if (player.score > 400) {
       dropInterval = 200;
    } else if (player.score > 300) {
