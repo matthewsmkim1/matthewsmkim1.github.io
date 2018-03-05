@@ -1,0 +1,79 @@
+body {
+  font-family: 'Raleway', sans-serif;
+   margin: 0;
+   padding: 0;
+   height: 100vh;
+}
+#particles-js {
+   height: 100%;
+   background: #262626;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+#title h1 {
+  position: absolute;
+  font-size: 3.5rem;
+  top: 16rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  color: white;
+  font-weight: lighter;
+}
+
+#resume {
+  position: absolute;
+  text-align: center;
+  top: 23rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+
+
+  z-index: 1;
+
+}
+
+.button {
+   border-radius: 3rem;
+   width: 9rem;
+   height: 3rem;
+   color: white;
+   background-color: Transparent;
+   outline:none;
+   border: solid #DEE5F5 1px;
+   text-decoration: none;
+   transition: all 0.5s;
+   cursor: pointer;
+   margin: 5px;
+}
+
+.button span {
+   cursor: pointer;
+   display: inline-block;
+   position: relative;
+   transition: 0.5s;
+
+}
+
+.button span:after {
+   content: '\00bb';
+   position: absolute;
+   opacity: 0;
+   top: 0;
+   right: -20px;
+   transition: 0.5s;
+}
+
+.button:hover span {
+   padding-right: 25px;
+}
+
+.button:hover span:after {
+   opacity: 1;
+   right: 0;
+}
