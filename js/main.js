@@ -1,29 +1,14 @@
 $(document).ready(function(){
+	$('a[href^="#hi"]').on('click',function (e) {
+	    e.preventDefault();
 
-	$(".mouseScroll").click(function(e) {
+	    var target = this.hash;
+	    var $target = $(target);
 
-		var linkHref = $(this).attr('href');
-
-		$('html, body').animate({
-			scrollTop: $(linkHref).offset().top
-		}, 1000);
-
-		e.preventDefault();
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing', function () {
+	        window.location.hash = target;
+	    });
 	});
-
-
-/*
-
-   $('.fa-facebook').hover(function() {
-		//does not find .fa-stack class for some reason
-		var col = document.getElementsByClassName(".fa-stack");
-		for(i=0; i<col.length; i++) {
-    		col[i].style.color = 'black';
-  		}
-   });
-
-*/
-
-
-
 });
