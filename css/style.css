@@ -126,6 +126,10 @@ body {
    right: 0;
 }
 
+#bord {
+  border: 1px solid black;
+
+}
 
 
 @-webkit-keyframes ani-mouse {
@@ -276,6 +280,13 @@ body {
 
 .parallax {
   background-attachment: scroll;
+}
+
+#hi p {
+  font-size: 1rem;
+  opacity: .8;
+  text-align: center;
+  padding: 3rem 3rem 3rem 3rem;
 }
 
 
