@@ -280,6 +280,8 @@ body {
 
 .parallax {
   background-attachment: scroll;
+  height: 100%;
+
 }
 
 #hi p {
