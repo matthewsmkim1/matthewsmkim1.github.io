@@ -398,7 +398,6 @@ hr {
 }
 
 #date {
-   visibility: hidden;
 
    margin-top: 0rem;
    float:right;
@@ -408,7 +407,6 @@ hr {
    font-weight: 100;
 }
 #location {
-   visibility: hidden;
 
    float:right;
    margin-right: 25%;
