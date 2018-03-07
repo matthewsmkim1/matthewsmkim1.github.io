@@ -45,8 +45,6 @@ i {
 }
 
 
-
-
 .skill {
    border: 1px solid #50a9d1;
    margin-right: 10px;
@@ -147,7 +145,7 @@ hr {
 }
 
 
-#hi {
+#aboutMeContainer {
   background-color: #DFDFDF;
 
 }
@@ -167,7 +165,7 @@ hr {
   font-weight: lighter;
 }
 
-#hi p {
+#aboutMeContainer p {
   font-size: 1rem;
   opacity: .8;
   text-align: center;
@@ -182,6 +180,7 @@ hr {
    */
    background: #262626;
 }
+
 
 .col-centered{
     float: none;
@@ -206,7 +205,6 @@ hr {
   left: 0;
   right: 0;
   margin: 0 auto;
-  z-index: 1;
 
 }
 
@@ -427,7 +425,6 @@ hr {
   left: 0;
   right: 0;
   margin: 0 auto;
-  z-index: 1;
 
 }
 
@@ -445,7 +442,7 @@ hr {
 
 }
 
-#hi p {
+#aboutMeContainer p {
   font-size: 1rem;
   opacity: .8;
   text-align: center;
