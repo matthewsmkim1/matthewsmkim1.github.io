@@ -398,7 +398,7 @@ hr {
 }
 
 #date {
-
+   font-size: 1px;
    margin-top: 0rem;
    float:right;
    font-style:italic;
@@ -406,7 +406,7 @@ hr {
    font-weight: 100;
 }
 #location {
-
+   font-size: 1px;
    float:right;
    font-style:italic;
    opacity: .8;
