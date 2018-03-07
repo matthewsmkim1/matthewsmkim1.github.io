@@ -411,6 +411,9 @@ hr {
 
 
 @media only screen and (max-width: 500px) {
+   .topnav {
+      visibility: hidden;
+   }
 /*
 .topnav a:not(:first-child) {
    display: none;
