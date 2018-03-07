@@ -12,7 +12,6 @@ html, body {
 /*http://kalynnakano.com/#work*/
 
 
-
 .social {
    text-align: center;
    left: 0;
@@ -137,9 +136,6 @@ hr {
    text-align: center;
 }
 
-.loading {
-	background: url('../pics/ico_loading.gif') no-repeat center center;
-}
 
 .col-centered{
     float: none;
@@ -389,7 +385,7 @@ hr {
 
 #detailOfExp {
 
-   margin-top: .8rem;
+   margin-top: 0rem;
    margin-left: 10%;
    max-width: 80%;
    margin-bottom: 2rem;
