@@ -6,13 +6,46 @@ html, body {
    padding: 0;
    height: 100%;
    background-color: #DFDFDF;
+   text-decoration: none;
 
 }
+.topnav {
+   font-family: 'Raleway', sans-serif;
+   background-color: #262626;
+   top:0;
+   float: right;
+   width:100%;
+}
 
-/*http://kalynnakano.com/#work*/
+/* Style the links inside the navigation bar */
+.topnav a {
+   float: right;
+   display: block;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   font-size: 17px;
+   transition: 0.2s ease;
+   font-weight: 100;
+}
 
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
 
-.social {
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #262626;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+#social {
    text-align: center;
    left: 0;
    right: 0;
@@ -380,6 +413,28 @@ hr {
 
 
 @media only screen and (max-width: 500px) {
+
+.topnav a:not(:first-child) {
+   display: none;
+}
+.topnav a.icon {
+   float: right;
+   display: block;
+}
+.topnav.responsive {
+   position: relative;
+}
+.topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.topnav.responsive a {
+   float: none;
+   display: block;
+   text-align: left;
+}
+
 
 #detailOfExp {
 
