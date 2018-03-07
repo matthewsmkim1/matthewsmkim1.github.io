@@ -1,9 +1,144 @@
-body {
+html, body {
   font-family: 'Raleway', sans-serif;
+  /*sourcesanspro*/
+  letter-spacing: .5px;
    margin: 0;
    padding: 0;
-   height: 100vh;
+   height: 100%;
+   background-color: #DFDFDF;
 
+}
+
+/*http://kalynnakano.com/#work*/
+
+
+
+.social {
+   text-align: center;
+   left: 0;
+   right: 0;
+   margin: auto;
+   display: inline-block;
+   width: 100%;
+
+}
+.fa {
+   transition: 0.2s ease;
+
+}
+i {
+   color: #555;
+   padding: 2rem;
+}
+
+
+.fa-facebook:hover {
+   color: #3B5998;
+
+}
+.fa-github:hover {
+   color: #333333;
+
+}
+.fa-linkedin:hover {
+   color: #4875B4;
+
+}
+
+
+
+
+.skill {
+   border: 1px solid #50a9d1;
+   margin-right: 10px;
+   text-transform: uppercase;
+   font-weight: 500;
+   width: auto;
+   display: inline-block;
+   font-size: 11px;
+   line-height: 1.33333em;
+   padding: 7px 18px;
+   margin-top: 0.8em;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   -ms-border-radius: 8px;
+   -o-border-radius: 8px;
+   border-radius: 8px;
+}
+
+
+.tools {
+  border-color: #86BE91;
+}
+
+.left {
+   float:left;
+}
+
+hr {
+   width: 50%;
+}
+.icon {
+   margin-top:2.5rem;
+   float:left;
+   margin-left:20%;
+
+}
+#company {
+   margin-top: 2rem;
+   float:left;
+   margin-left:25%;
+   font-style:bold;
+   font-weight: 420;
+}
+
+
+
+#date {
+   margin-top: 2rem;
+   float:right;
+   margin-right: 25%;
+   font-style:italic;
+   opacity: .8;
+   font-weight: 100;
+}
+#location {
+   float:right;
+   margin-right: 25%;
+   font-style:italic;
+   opacity: .8;
+   font-weight: 100;
+}
+
+
+#detailOfExp {
+
+   margin-top: 2rem;
+   font-weight: lighter;
+   float:left;
+   margin-left: 25%;
+   max-width: 50%;
+   margin-bottom: 2rem;
+}
+
+#experience {
+   line-height: 2rem;
+   background-color: #DFDFDF;
+   font-size: 1rem;
+}
+
+#titleOfExp {
+   text-align: center;
+   font-weight: lighter;
+}
+
+#profilePic {
+   padding-top: 2%;
+   text-align: center;
+}
+
+.loading {
+	background: url('../pics/ico_loading.gif') no-repeat center center;
 }
 
 .col-centered{
@@ -15,24 +150,21 @@ body {
   line-height: 5rem;
 }
 
-.parallax {
-    /* The image used */
-    background-color: #ECECEC;
 
-    /* Full height */
-    height: 70%;
+#hi {
+  background-color: #DFDFDF;
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
+
+
 .colr {
-  background-color: #ECECEC;
+  /*background-color: #F0F0F0;*/
+  margin-top: 10rem;
+  background-color: #DFDFDF;
 }
 #aboutMe {
   font-family: 'Raleway', sans-serif;
+
   font-size: 2rem;
   text-align: center;
   padding-top: 3rem;
@@ -43,12 +175,15 @@ body {
   font-size: 1rem;
   opacity: .8;
   text-align: center;
-  padding: 3rem 8rem 3rem 8rem;
+  padding: 3rem 9rem 3rem 9rem;
 }
 
-
 #particles-js {
+
    height: 100%;
+
+   /*background-image: url("../night.jpeg");
+   */
    background: #262626;
 }
 
@@ -251,6 +386,13 @@ body {
 
 
 @media only screen and (max-width: 500px) {
+
+#date {
+   visibility: hidden;
+}
+#location {
+   visibility: hidden;
+}
 
 #title h1 {
   position: absolute;

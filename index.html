@@ -10,9 +10,18 @@
       <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+      <link rel="icon" href="favicon.ico" type="image/x-icon">
+
    </head>
 
-   <body>
+   <!-- I need to add pictures of companies next to experience.
+        I need to figure out parallax scrolling somehow if possible.
+   -->
+
+   <body class="loading">
+
+
       <div id="particles-js">
 
          <div id="title">
@@ -37,27 +46,202 @@
 
       </div>
 
-      <div class="parallax" id="hi">
+
+      <div id="hi">
+
          <div id="aboutMe">
             ABOUT ME
          </div>
+         <div id="profilePic">
+            <img src="pics/circleme.gif" width="12%" height="12%"/>
+         </div>
          <p>
-            Hi, I'm Matt. I'm a Sophomore at Johns Hopkins majoring in Computer Science.
-            Originally an Economics major, I discovered late freshman year that software engineering
-            was my true passion. Always trying to learn new languages/frameworks/tools, listed below are
-            the ones that I have experience in.
+            Hi, I'm <b>Matt</b>. I'm a Sophomore at Johns Hopkins majoring in Computer Science.
+            Originally an Econ major, I discovered late freshman year that software engineering
+            was my true passion, and have never looked back since.
          </p>
 
+
+         <div id="titleOfExp">
+            EXPERIENCE
+         </div>
+
+         <hr />
+      </div>
+
+      <div id="experience">
+         <!--
+         <div class="icon">
+            <img src="pics/signal.png" width="25%" height="25%"/>
+         </div>
+      -->
+         <div id="company">
+            Signal
+            <br />
+            Upcoming Product Management Intern
+         </div>
+         <div id="date">
+            Summer 2018
+         </div>
+         <div id="location">
+            Chicago, Illinois
+         </div>
+         <div id="detailOfExp">
+            Will be working closely with the product and engineering teams on the technical
+            development and launch of new features for Signal's platform.
+            Another future task will include collaborating with product analysts and managers to ensure user stories are written
+            to such detail that test plans can be generated.
+            <br />
+            <div class="skill tools">
+               Agile
+            </div>
+            <div class="skill tools">
+               Scrum
+            </div>
+         </div>
+
+
+         <div id="company">
+            Homies
+            <br />
+            Software Engineering Intern
+         </div>
+         <div id="date">
+            2018 (current)
+         </div>
+         <div id="location">
+            Baltimore, Maryland
+         </div>
+         <div id="detailOfExp">
+            Helping develop a web application that will function similar to the mobile application.
+            <br />
+            <div class="left">
+               <div class="skill">
+                  Javascript
+               </div>
+               <div class="skill">
+                  HTML/CSS
+               </div>
+               <div class="skill tools">
+                  Git
+               </div>
+            </div>
+
+         </div>
+
+
+         <div id="company">
+            MedHacks
+            <br />
+            Software Engineering Intern
+         </div>
+         <div id="date">
+            2018 (current)
+         </div>
+         <div id="location">
+            Baltimore, Maryland
+         </div>
+         <div id="detailOfExp">
+            Working on a user login and registration on the organization's website for thousands of applicants.
+            Currently creating a database to streamline the acceptance and reimbursement process
+            <br />
+            <div class="left">
+               <div class="skill">
+                  Python
+               </div>
+               <div class="skill">
+                  MongoDB
+               </div>
+               <div class="skill tools">
+                  Git
+               </div>
+            </div>
+
+         </div>
+
+
+         <div id="company">
+            Johns Hopkins University
+            <br />
+            Computer Science Research Assistant
+         </div>
+         <div id="date">
+            Fall 2017
+         </div>
+         <div id="location">
+            Baltimore, Maryland
+         </div>
+         <div id="detailOfExp">
+            Identified bugs within android mobile applications that cause disruptive app behavior, especially pertaining to wake locks.
+            Wrote analyzation reports of certain android applications detailing app utilities, source of bugs, and potential triggers.
+            <br />
+            <div class="left">
+               <div class="skill">
+                  Java
+               </div>
+               <div class="skill">
+                  XML
+               </div>
+               <div class="skill tools">
+                  Android Studio
+               </div>
+            </div>
+
+         </div>
+
+         <div id="company">
+            UMB Dental School
+            <br />
+            Website Development Intern
+         </div>
+         <div id="date">
+            Summer 2017
+         </div>
+         <div id="location">
+            Baltimore, Maryland
+         </div>
+         <div id="detailOfExp">
+            Redesigned and organized hundreds of faculty member bios in the website using the Terminal Four web management system.
+            Assisted in creation of new web pages and organization of online content to attract potential University donors.
+            <br />
+            <div class="left">
+               <div class="skill tools">
+                  TERMINALFOUR
+               </div>
+            </div>
+
+         </div>
+
+
+      </div>
+
+
+
+            <div class="social">
+
+               <a href="https://www.linkedin.com/in/matthew-kim-941170142/">
+                 <i id="linkedin" class="fa fa-linkedin fa-3x"></i>
+               </a>
+               <a href="https://github.com/matthewsmkim1">
+                  <i id="github" class="fa fa-github fa-3x"></i>
+               </a>
+               <a href="https://www.facebook.com/profile.php?id=100011417904291">
+                  <i id="facebook" class="fa fa-facebook fa-3x"></i>
+               </a>
+
+            </div>
+
+
+
+
+
+         <!--
          <div class="colr">
 
-
             <div class="container-fluid">
+               <br />
                <div class="row">
-                 <div class="col-xs-6 col-sm-6 col-md-4 col-centered text-center">
-                    <div id="bord">
-                       Java
-                    </div>
-                 </div>
+
                  <div class="col-xs-6 col-sm-6 col-md-4 col-centered text-center">Python</div>
                  <div class="col-xs-6 col-sm-6 col-md-4 col-centered text-center">
                     <div id="bord">
@@ -71,10 +255,10 @@
                     </div>
                  </div>
 
-                 <div class="col-xs-6 col-sm-6 col-md-4 col-centered text-center">Bootstrap</div>
+                 <div class="col-xs-6 col-sm-6 col-md-4 col-centered text-center">Java</div>
                  <div class="col-xs-6 col-sm-6 col-md-4 col-centered text-center">
                     <div id="bord">
-                       Android Studio
+                       Bootstrap
                     </div>
                  </div>
                  <div class="col-xs-6 col-sm-6 col-md-4 col-centered text-center">Git</div>
@@ -90,6 +274,11 @@
                     </div>
                  </div>
                  <div class="col-xs-6 col-sm-6 col-md-4 col-centered text-center">Linux</div>
+                 <div class="col-xs-6 col-sm-6 col-md-4 col-centered text-center">
+                    <div id="bord">
+                     Android Studio
+                    </div>
+                 </div>
                </div>
 
             </div>
@@ -99,9 +288,8 @@
 
 
 
+      -->
 
-
-      </div>
 
 
 
