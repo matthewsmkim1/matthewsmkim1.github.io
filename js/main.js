@@ -11,4 +11,13 @@ $(document).ready(function(){
 	        window.location.hash = target;
 	    });
 	});
+	var width = screen.width,
+	var height = screen.height;
+
+      if (screen.width <= 500 || screen.height <= 176) {
+
+			$('#date').remove();
+			$('#location').remove();
+
+      }
 });
