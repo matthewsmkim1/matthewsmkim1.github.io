@@ -387,6 +387,21 @@ hr {
 
 @media only screen and (max-width: 500px) {
 
+#detailOfExp {
+
+   margin-top: .8rem;
+   margin-left: 5%;
+   max-width: 80%;
+   margin-bottom: 2rem;
+}
+
+#company {
+   margin-top: 2rem;
+   float:left;
+   margin-left:5%;
+}
+
+
 #date {
    visibility: hidden;
 }
