@@ -9,6 +9,10 @@ html, body {
    text-decoration: none;
 
 }
+img {
+   width:12%;
+   height:12%;
+}
 
 .topnav {
    font-family: 'Raleway', sans-serif;
@@ -411,10 +415,16 @@ hr {
 
 
 @media only screen and (max-width: 500px) {
+   img {
+      width: 22%;
+      height:22%;
+   }
+   /*
    .topnav {
       visibility: hidden;
    }
-/*
+
+
 .topnav a:not(:first-child) {
    display: none;
 }
