@@ -390,7 +390,7 @@ hr {
 #detailOfExp {
 
    margin-top: .8rem;
-   margin-left: 5%;
+   margin-left: 10%;
    max-width: 80%;
    margin-bottom: 2rem;
 }
@@ -398,15 +398,27 @@ hr {
 #company {
    margin-top: 2rem;
    float:left;
-   margin-left:5%;
+   margin-left:10%;
 }
-
 
 #date {
    visibility: hidden;
+
+   margin-top: 0rem;
+   float:right;
+   margin-right: 25%;
+   font-style:italic;
+   opacity: .8;
+   font-weight: 100;
 }
 #location {
    visibility: hidden;
+
+   float:right;
+   margin-right: 25%;
+   font-style:italic;
+   opacity: .8;
+   font-weight: 100;
 }
 
 #title h1 {
