@@ -400,14 +400,14 @@ hr {
 #date {
    font-size: 1px;
    margin-top: 0rem;
-   float:right;
+   float:left;
    font-style:italic;
    opacity: .8;
    font-weight: 100;
 }
 #location {
    font-size: 1px;
-   float:right;
+   float:left;
    font-style:italic;
    opacity: .8;
    font-weight: 100;
