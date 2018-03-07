@@ -395,20 +395,18 @@ hr {
    margin-top: 2rem;
    float:left;
    margin-left:10%;
+   padding-bottom: 1rem;
 }
 
 #date {
-   position:absolute;
-   font-style:italic;
-   opacity: .8;
-   font-weight: 100;
-}
-#location {
+   visibility: hidden;
    position:absolute;
 
-   font-style:italic;
-   opacity: .8;
-   font-weight: 100;
+}
+#location {
+   visibility: hidden;
+   position:absolute;
+
 }
 
 #title h1 {
