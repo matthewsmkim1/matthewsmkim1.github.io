@@ -120,8 +120,7 @@
             Baltimore, Maryland
          </div>
          <div id="detailOfExp">
-            Helping develop a web application that will function similar to the mobile application in helping
-	    people find roommates.
+            Helping develop a web application that will function similar to the mobile application.
             <br />
             <div class="left">
                <div class="skill">
@@ -130,10 +129,6 @@
                <div class="skill">
                   HTML/CSS
                </div>
-	       <div class="skill tools">
-		 Firebase
-		 </div>
-		 
                <div class="skill tools">
                   Git
                </div>
@@ -162,7 +157,7 @@
                   Python
                </div>
                <div class="skill">
-                  MariaDB
+                  MongoDB
                </div>
                <div class="skill tools">
                   Git
