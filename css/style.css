@@ -447,6 +447,34 @@ hr {
       width: 25%;
       height:25%;
    }
+   img.icon {
+      visibility: hidden;
+      width: 65px;
+      height: 65px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius:50%;
+      float: left;
+      display: block;
+      margin-left: -95px;
+      margin-top: 5px;
+      background-color: #fff;
+      opacity: 0.8;
+      z-index: 0;
+      filter: grayscale(100%);
+      -webkit-filter: grayscale(100%);   /*For Webkit browsers */
+      filter: gray;  /* For IE 6 - 9 */
+      -webkit-transition: all .4s ease;
+   }
+
+   img.icon:hover {
+      visibility: hidden;
+     filter: grayscale(0%);
+     -webkit-filter: grayscale(0%);
+     filter: none;
+   }
    /*
    .topnav {
       visibility: hidden;
