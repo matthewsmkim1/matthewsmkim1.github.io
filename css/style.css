@@ -165,9 +165,10 @@ hr {
    float:right;
    margin-right: 25%;
    font-style:italic;
-   opacity: .8;
+   opacity: 0;
    font-weight: 100;
    visibility: hidden;
+
 }
 
 #location {
