@@ -159,6 +159,17 @@ hr {
    opacity: .8;
    font-weight: 100;
 }
+
+#fdate {
+   margin-top: 2rem;
+   float:right;
+   margin-right: 25%;
+   font-style:italic;
+   opacity: .8;
+   font-weight: 100;
+   visibility: hidden;
+}
+
 #location {
    float:right;
    margin-right: 25%;
@@ -259,6 +270,11 @@ hr {
   margin: 0 auto;
   color: white;
   font-weight: lighter;
+  -webkit-font-weight: lighter;
+  -moz-font-weight: lighter;
+  -ms-font-weight: lighter;
+  -o-font-weight: lighter;
+
 }
 
 #resume {
@@ -268,7 +284,10 @@ hr {
   left: 0;
   right: 0;
   margin: 0 auto;
-
+  -webkit-font-weight: lighter;
+  -moz-font-weight: lighter;
+  -ms-font-weight: lighter;
+  -o-font-weight: lighter;
 }
 
 #scroll {
