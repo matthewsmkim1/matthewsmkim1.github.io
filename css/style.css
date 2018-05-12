@@ -77,7 +77,19 @@ img.icon:hover {
    margin: auto;
    display: inline-block;
    width: 100%;
-
+}
+#projects {
+   padding-top: 3rem;
+   line-height: 2rem;
+   background-color: #DFDFDF;
+   font-size: 1rem;
+   text-align: center;
+   left: 0;
+   right: 0;
+   margin: auto;
+   display: inline-block;
+   width: 100%;
+   font-weight: lighter;
 }
 .fa {
    transition: 0.2s ease;
