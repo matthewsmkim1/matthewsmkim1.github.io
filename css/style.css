@@ -170,7 +170,6 @@ i {
 
 }
 
-
 .skill {
    font-weight: 100;
    border: 1px solid #50a9d1;
@@ -193,6 +192,10 @@ i {
 
 .tools {
   border-color: #86BE91;
+}
+
+.courses {
+  border-color: #FAA1A1;
 }
 
 .left {
