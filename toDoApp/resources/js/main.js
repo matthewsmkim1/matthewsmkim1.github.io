@@ -70,7 +70,8 @@ function reminder() {
             });*/
 
             notification.onclick = function () {
-               window.open("http://matthewkim.me");
+               // window.open("http://matthewkim.me"); I don't know why it has matthewkim.me so i put google for now 6/18/20
+               window.open("https://google.com");
             };
 
          }
